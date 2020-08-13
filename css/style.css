@@ -147,3 +147,9 @@ body {
     opacity: 0.3;
     transform: scale(0);
 }
+
+@media (max-width: 480px){
+  .nw-left {
+    display: none;
+  }
+}
