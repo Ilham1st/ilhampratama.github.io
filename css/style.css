@@ -21,6 +21,8 @@ body {
 
 .navigation {
   height: 100vh;
+  margin-left: 45px;
+  margin-right: 45px;
   display: flex;
   align-items: center;
   justify-content: center; 
@@ -149,7 +151,27 @@ body {
 }
 
 @media (max-width: 480px){
+  #nav-brand {
+    left: 25px;
+  }
+  #close {
+    right: 25px;
+  }  
+  .nav-menu {
+    font-size: 3.09vh;
+    margin-top: 6.5vh;
+  }
+  .nav-underline {
+    width: 5.8vh;
+  }
+  .nav-menu-content p {
+    font-size: 5vh;
+  }
   .nw-left {
     display: none;
   }
+  .nav-right-side {
+    padding-left: 2vh;
+  }
+  
 }
