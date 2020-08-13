@@ -47,6 +47,7 @@
 }
 
 .hero-section {
+    width: 100%;
     height: 100vh;
     display: flex;
     align-items: center;
@@ -367,9 +368,6 @@
     .home {
         right: 25px;
     }
-    .hero-wrapper {
-        width: 100%;
-    }
     .hero-section-left {
         text-align: center;
     }
@@ -394,12 +392,21 @@
     .showcase {
         margin-bottom: 15.4vh;
     }
+    .showcase-t {
+        font-size: 2vh;
+    }
+    .explore-t {
+        font-size: 6.2vh;
+    }
+    .line-vertical {
+        height: 5vh;
+    }
     .left-items {
         padding-top: 0;
         margin-bottom: 22vh;
     }
     .line-center {
-        width: 75vw;
+        width: 73vw;
     }
     .underline {
         float: none;
