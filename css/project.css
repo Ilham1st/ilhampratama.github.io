@@ -1,0 +1,182 @@
+.project-wrapper {
+    position: absolute;
+    width: 100%;
+    top: 100%;
+    height: 100vh;
+    color: #F2F2F2;
+}
+
+.pw-section {
+    margin-top: 40px;
+    margin-left: 143px;
+    margin-right: 143px;
+}
+
+.pw-title {    
+    text-align: right;
+    margin-bottom: 20px;
+}
+
+.pw-title p {
+    font-family: 'Futura';
+    font-size: 8vh;   
+    font-weight: lighter;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.pw-underline {
+    float: right;
+    border-top: 1px solid #707070;
+    width: 100%;
+    display: block;
+}
+
+.section-name {
+    font-family: 'Futura';
+    font-size: 3.07vh;
+    font-weight: lighter;
+    position: absolute;
+    top: 113px;
+}
+
+.pw-content {
+    margin-top: 60px;
+}
+
+.pw-left {
+    padding-right: 42px;
+}
+
+.pw-right {
+    padding-left: 42px;
+}
+
+.content-title {
+    font-family: 'Futura';
+    font-weight: lighter;
+}
+
+.pw-year {
+    font-size: 2.55vh;
+    display: inline-block;
+}
+
+.pw-explore {
+    display: inline-block;
+    float: right;
+    font-size: 3.46vh;
+}
+
+.pw-content img {
+    width: 100%;
+}
+
+.pw-concept {
+    font-family: 'Butler';
+    font-size: 6vh;
+    margin-bottom: 0;
+}
+
+.line-horizontal {
+    border-top: 1px solid #707070;
+    width: 100%;
+    margin-bottom: 1.48vh;
+}
+
+.pw-desc {
+    font-family: 'Futura';
+    font-size: 2.55vh;
+    font-weight: lighter;
+}
+
+@media (min-width: 1200px) and (max-width : 1500px) {
+    .pw-title p {
+        font-size: 5vh;
+    }
+    .section-name {
+        top: 70px;
+    }
+    .pw-year {
+        font-size: 1.9vh;
+    }
+    .pw-explore {
+        font-size: 2.7vh;
+    }
+    .pw-concept {
+        font-size: 4.8vh;
+    }
+    .pw-desc {
+        font-size: 1.9vh;
+    }
+}
+
+@media (min-width: 992px) and (max-width : 1200px) {
+    .pw-title p {
+        font-size: 5vh;
+    }
+    .section-name {
+        top: 70px;
+    }
+    .pw-year {
+        font-size: 1.9vh;
+    }
+    .pw-explore {
+        font-size: 2.7vh;
+    }
+    .pw-concept {
+        font-size: 4.8vh;
+    }
+    .pw-desc {
+        font-size: 1.9vh;
+    }
+}
+
+@media (min-width: 768px) and (max-width : 991px) {
+    .pw-title p {
+        font-size: 4.5vh;
+    }
+    .section-name {
+        top: 70px;
+    }
+    .pw-year {
+        font-size: 1.5vh;
+    }
+    .pw-explore {
+        font-size: 2.2vh;
+    }
+    .pw-concept {
+        font-size: 3.6vh;
+    }
+    .pw-desc {
+        font-size: 1.5vh;
+    }
+}
+
+@media (min-width: 480px) and (max-width : 767px) {
+    .pw-title p {
+        font-size: 4vh;
+    }
+    .section-name {
+        font-size: 2.07vh;
+        top: 55px;
+    }
+    .pw-left {
+        padding-right: 0;
+    }
+    .pw-right {
+        padding-left: 0;
+    }
+    .pw-year {
+        font-size: 2.1vh;
+    }
+    .pw-explore {
+        font-size: 3vh;
+    }
+    .pw-concept {
+        font-size: 5vh;
+    }
+    .pw-desc {
+        font-size: 2.1vh;
+    }
+}
