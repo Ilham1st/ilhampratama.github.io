@@ -5,6 +5,7 @@ body {
   background: #080808;
   color: white;
   cursor: none;
+  overflow-x: hidden;
 }
 
 ::-webkit-scrollbar {
@@ -59,7 +60,7 @@ body {
 }
 
 .nw-explore {
-  margin-left: 310px;
+  margin-left: 15.3vw;
   font-size: 2.75vh;
   display: inline;
 }
@@ -137,7 +138,7 @@ body {
     width: 40px;
     height: 40px;
     border-radius: 100%;
-    z-index: 1;
+    z-index: 5;
     transition: 0.6s cubic-bezier(0.75, -1.27, 0.3, 2.33) transform,
         0.4s cubic-bezier(0.75, -1.27, 0.3, 2.33) opacity;
     user-select: none;
