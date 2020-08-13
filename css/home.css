@@ -1,12 +1,3 @@
-@font-face {
-    font-family: 'Butler';
-    src: url('../fonts/butler/Butler-Medium.woff2');
-  
-    font-family: 'Futura';
-    src: url('../fonts/Futura/Futura-CondensedLight.otf');
-} 
-
-
 .home-wrapper {
     position: absolute;
     height: 100vh;

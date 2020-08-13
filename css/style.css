@@ -1,7 +1,9 @@
 @font-face {
   font-family: 'Butler';
-  src: url('../fonts/butler/Butler-Medium.woff2');
+  src: url('../fonts/butler/Butler_Medium.otf');
+} 
 
+@font-face {
   font-family: 'Futura';
   src: url('../fonts/Futura/Futura-CondensedLight.otf');
 } 
