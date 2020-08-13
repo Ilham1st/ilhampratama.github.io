@@ -44,8 +44,9 @@
     position: fixed;
     transform: translateY(-50%);
     top: 50%;
+    left: 45px;
     margin: 0;
-    writing-mode: vertical-lr;
+    writing-mode: vertical-rl;
 }
 
 .home {
@@ -330,6 +331,9 @@
     .home {
         right: 25px;
     }
+    .year {
+        left: 25px;
+    }
     .hero-wrapper {
         width: 100%;
     }
@@ -378,6 +382,9 @@
     }
     .home {
         right: 25px;
+    }
+    .year {
+        left: 25px;
     }
     .hero-section-left {
         text-align: center;
