@@ -376,8 +376,8 @@
 @media (max-width: 480px){
     .hw-nav-fixed {
         padding-top: 25px;
-        padding-left: 15px;
-        padding-right: 15px;
+        padding-left: 17.5px;
+        padding-right: 17.5px;
         font-size: 2vh;
     }
     .home {
