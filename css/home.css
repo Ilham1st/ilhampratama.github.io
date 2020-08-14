@@ -113,7 +113,6 @@
 .showcase {
     font-family: 'Futura';
     font-weight: lighter;
-    height: 10vh;
     text-align: center;
 }
 
@@ -387,8 +386,11 @@
     .year {
         left: 25px;
     }
-    .hero-section-left {
+    .showcase {
         padding-bottom: 6vh;
+    }
+    .hero-section-left {
+        padding-bottom: 13.5vh;
         text-align: center;
     }
     .hero-section-mid {
