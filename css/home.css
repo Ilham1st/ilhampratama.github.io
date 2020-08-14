@@ -376,8 +376,9 @@
 
 @media (max-width: 480px){
     .hw-nav-fixed {
-        padding-left: 25px;
-        padding-right: 25px;
+        padding-top: 25px;
+        padding-left: 15px;
+        padding-right: 15px;
         font-size: 2vh;
     }
     .home {
@@ -407,9 +408,6 @@
     .quote {
        display: none;
     }
-    .showcase {
-        margin-bottom: 15.4vh;
-    }
     .showcase-t {
         font-size: 2vh;
     }
@@ -421,7 +419,6 @@
     }
     .left-items {
         padding-top: 0;
-        margin-bottom: 22vh;
     }
     .line-center {
         width: 73vw;
