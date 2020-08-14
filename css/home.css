@@ -388,6 +388,7 @@
         left: 25px;
     }
     .hero-section-left {
+        padding-bottom: 6vh;
         text-align: center;
     }
     .hero-section-mid {
@@ -419,7 +420,6 @@
     }
     .left-items {
         padding-top: 0;
-        padding-bottom: 7vh;
     }
     .line-center {
         width: 73vw;
