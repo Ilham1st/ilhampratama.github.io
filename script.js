@@ -1,4 +1,21 @@
 
+  const circleType = new CircleType(
+    document.getElementById("rotated")
+  ).radius(80);
+
+  $(window).scroll(function() {
+    var offset = $(window).scrollTop();
+    offset = offset * 0.4;
+
+    $(".circular-text").css({
+      "-moz-transform" : "rotate(" + offset + "deg)",
+      "-webkit-transform" : "rotate(" + offset + "deg)",
+      "-0-transform" : "rotate(" + offset + "deg)",
+      "-ms-transform" : "rotate(" + offset + "deg)",
+      "transform" : "rotate(" + offset + "deg)",
+    });
+  });
+  
   $("#menu").click(function() {
     onMenuButton();  
   });
