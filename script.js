@@ -29,7 +29,7 @@
   });
 
   function onMenuButton() {
-    $(".wrapper").fadeOut(500);
+    $("#wrapper").fadeOut(500);
     setTimeout(function (){
       window.scrollTo(top);
       $(".navigation-wrapper").fadeIn(1000);
@@ -39,7 +39,7 @@
   function onCloseButton() {
       $(".navigation-wrapper").fadeOut(500);
       setTimeout(function (){
-        $(".wrapper").fadeIn(2000);
+        $("#wrapper").fadeIn(2000);
       }, 500);    
   }
  
