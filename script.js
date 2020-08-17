@@ -3,6 +3,10 @@
     document.getElementById("rotated")
   ).radius(80);
 
+  const circleTypeAuto = new CircleType(
+    document.getElementById("rotated-auto")
+  ).radius(80);
+
   $(window).scroll(function() {
     var offset = $(window).scrollTop();
     offset = offset * 0.4;

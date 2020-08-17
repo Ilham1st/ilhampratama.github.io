@@ -1,8 +1,6 @@
 .project-wrapper {
-    position: absolute;
     width: 100%;
     top: 100%;
-    height: 100vh;
     color: #F2F2F2;
 }
 
@@ -18,9 +16,8 @@
 }
 
 .pw-title p {
-    font-family: 'Futura';
+    font-family: 'Butler';
     font-size: 8vh;   
-    font-weight: lighter;
     margin-top: 0;
     margin-bottom: 0;
 }
@@ -37,7 +34,7 @@
     font-size: 3.07vh;
     font-weight: lighter;
     position: absolute;
-    top: 113px;
+    top: 112vh;
 }
 
 .pw-content {
@@ -94,19 +91,47 @@
     margin-left: 4vh;
     margin-top: 15vh;
     font-size: 4.5vh;
-    font-family: 'Butler';
+    font-family: 'Futura';
 }
 
+.circular-text-auto {
+    margin-right: 4vh;
+    margin-top: 15vh;
+    font-size: 4.5vh;
+    font-family: 'Futura';
+    transform: translate(-50%, -50%);
+    animation: rotating 20s linear infinite;
+}
+
+@keyframes rotating {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
 .arrows {
     position: relative;
-    margin-top: -30vh; 
-    margin-left: 23.5vh;
+    margin-top: -38vh; 
+    margin-left: 20vh;
+}
+.arrows img {
+    width: 181.9px;
+    height: 229.89px;
 }
 
-ion-icon {
-    font-size: 100px;
-    background-color: white;
+.arrows-auto {
+    position: relative;
+    margin-top: -38vh; 
+    margin-left: 15vh;
 }
+.arrows-auto img {
+    width: 181.9px;
+    height: 229.89px;
+    transform: rotate(-45deg);
+}
+
 
 @media (min-width: 1200px) and (max-width : 1500px) {
     .pw-title p {
@@ -213,7 +238,7 @@ ion-icon {
     }
     .section-name {
         font-size: 2.07vh;
-        top: 55px;
+        top: 107vh;
     }
     .pw-left {
         padding-right: 0;
@@ -233,7 +258,7 @@ ion-icon {
     .pw-desc {
         font-size: 2.1vh;
     }
-    .circular-text {
-        font-size: 3vh;
+    .not-mobile {
+        display: none;
     }
 }

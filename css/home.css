@@ -8,9 +8,11 @@
     src: url('../fonts/Futura/Futura-CondensedLight.otf');
 }
 
+.wrapper {
+    position: absolute;
+}
 
 .home-wrapper {
-    position: absolute;
     height: 100vh;
     color: #F2F2F2;
     width: 100%;
@@ -79,14 +81,14 @@
     width: 137.6vh;
     position: absolute;
     transform: translate(-50%, -50%);
-    top: 50%;
+    top: 51.2vh;
     left: 50%;
     z-index: -1;
 }
 
 .arrow {
     position: absolute;
-    bottom: 10vh;
+    top: 90vh;
     left: 50%;
     width: 1.74vh;
     height: 1.74vh;
@@ -376,15 +378,17 @@
 @media (max-width: 480px){
     .hw-nav-fixed {
         padding-top: 25px;
-        padding-left: 17.5px;
-        padding-right: 17.5px;
+        padding-left: 15px;
+        padding-right: 15px;
         font-size: 2vh;
     }
     .home {
-        right: 25px;
+        right: 15px;
+        opacity: 50%;
     }
     .year {
-        left: 25px;
+        left: 15px;
+        opacity: 50%;
     }
     .showcase {
         padding-bottom: 6vh;
@@ -425,6 +429,7 @@
     }
     .line-center {
         width: 73vw;
+        top: 50vh;
     }
     .underline {
         float: none;
