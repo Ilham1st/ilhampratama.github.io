@@ -384,11 +384,11 @@
     }
     .home {
         right: 15px;
-        opacity: 50%;
+        color: #808080;
     }
     .year {
         left: 15px;
-        opacity: 50%;
+        color: #808080;
     }
     .showcase {
         padding-bottom: 6vh;
