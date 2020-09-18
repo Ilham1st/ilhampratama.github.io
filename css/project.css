@@ -1,4 +1,5 @@
 .project-wrapper {
+    margin-top: 10vh;
     width: 100%;
     top: 100%;
     color: #F2F2F2;
@@ -6,39 +7,62 @@
 
 .pw-section {
     margin-top: 40px;
-    margin-left: 143px;
-    margin-right: 143px;
+    margin-left: 175px;
+    margin-right: 175px;
 }
 
 .pw-title {    
     text-align: right;
-    margin-bottom: 20px;
 }
 
 .pw-title p {
     font-family: 'Butler';
-    font-size: 8vh;   
+    font-size: 9vh;   
     margin-top: 0;
     margin-bottom: 0;
+}
+
+.pw-title p span {
+    display: inline;
+}
+
+.pw-title h6 {
+    margin-top: 0;
+    font-family: 'Futura';
+    font-size: 4vh;
+    float: left;
+}
+
+.insert h6 {
+    display: inline;
+}
+
+.insert h6:last-child {
+    float: right;
+    font-size: 4vh;
+    opacity: 60%;
 }
 
 .pw-underline {
     float: right;
     border-top: 1px solid #707070;
-    width: 100%;
     display: block;
-}
-
-.section-name {
-    font-family: 'Futura';
-    font-size: 3.07vh;
-    font-weight: lighter;
-    position: absolute;
-    top: 112vh;
+    width: 100%;
 }
 
 .pw-content {
-    margin-top: 60px;
+    margin-top: 45px;
+}
+
+.pw-content-arrow {
+    padding-top: 20vh;
+}
+
+.pw-c-title {
+    font-size: 7vh;
+    font-family: 'Futura';
+    margin-bottom: 0;
+    text-align: center;
 }
 
 .pw-left {
@@ -63,6 +87,7 @@
     display: inline-block;
     float: right;
     font-size: 3.46vh;
+    opacity: 50%;
 }
 
 .pw-content img {
@@ -71,34 +96,32 @@
 
 .pw-concept {
     font-family: 'Butler';
-    font-size: 6vh;
+    font-size: 8vh;
     margin-bottom: 0;
 }
 
 .line-horizontal {
     border-top: 1px solid #707070;
     width: 100%;
-    margin-bottom: 1.48vh;
+    margin-bottom: 1.5vh;
+    margin-top: 0;
 }
 
 .pw-desc {
     font-family: 'Futura';
-    font-size: 2.55vh;
+    font-size: 3vh;
     font-weight: lighter;
+    opacity: 70%;
 }
 
 .circular-text {
-    margin-left: 4vh;
-    margin-top: 15vh;
-    font-size: 4.5vh;
+    font-size: 2.1vw;
     font-family: 'Futura';
     transition: 0.9s ease-out;
 }
 
 .circular-text-auto {
-    margin-right: 4vh;
-    margin-top: 15vh;
-    font-size: 4.5vh;
+    font-size: 2.1vw;
     font-family: 'Futura';
     transform: translate(-50%, -50%);
     animation: rotating 5s linear infinite;
@@ -114,23 +137,36 @@
 }
 .arrows {
     position: relative;
-    margin-top: -38vh; 
-    margin-left: 20vh;
+    margin-top: -57.67vh; 
+    margin-left: 9.5vw;
 }
 .arrows img {
-    width: 181.9px;
-    height: 229.89px;
+    width: 9.4vw;
+    height: 11.28vw;
 }
 
 .arrows-auto {
     position: relative;
-    margin-top: -38vh; 
-    margin-left: 15vh;
+    margin-top: -58vh; 
+    margin-left: 7.5vw;
 }
+
 .arrows-auto img {
-    width: 181.9px;
-    height: 229.89px;
+    width: 9.4vw;
+    height: 11.97vw;
     transform: rotate(-45deg);
+}
+
+.arrows-auto-1 {
+    position: relative;
+    margin-top: -58vh; 
+    margin-left:  8vw;
+}
+
+.arrows-auto-1 img {
+    width: 9.4vw;
+    height:  11.97vw;
+    transform: rotate(45deg);
 }
 
 
@@ -138,8 +174,8 @@
     .pw-title p {
         font-size: 5vh;
     }
-    .section-name {
-        top: 70px;
+    .pw-title h6 {
+        font-size: 2vh;
     }
     .pw-year {
         font-size: 1.9vh;
@@ -152,15 +188,28 @@
     }
     .pw-desc {
         font-size: 1.9vh;
+    }
+    .arrows {
+        display: none;
+    }
+    .arrows-auto {
+        display: none;
+    }
+    .arrows-auto-1 {
+        display: none;
     }
 }
 
 @media (min-width: 992px) and (max-width : 1200px) {
+    .pw-section {
+        margin-left: 150px;
+        margin-right: 150px;
+    }
     .pw-title p {
         font-size: 5vh;
     }
-    .section-name {
-        top: 70px;
+    .pw-title h6 {
+        font-size: 2vh;
     }
     .pw-year {
         font-size: 1.9vh;
@@ -174,14 +223,21 @@
     .pw-desc {
         font-size: 1.9vh;
     }
+    .not-mobile {
+        display: none;
+    }
 }
 
 @media (min-width: 768px) and (max-width : 991px) {
+    .pw-section {
+        margin-left: 100px;
+        margin-right: 100px;
+    }
     .pw-title p {
         font-size: 4.5vh;
     }
-    .section-name {
-        top: 70px;
+    .pw-title h6 {
+        font-size: 2vh;
     }
     .pw-year {
         font-size: 1.5vh;
@@ -195,6 +251,9 @@
     .pw-desc {
         font-size: 1.5vh;
     }
+    .not-mobile {
+        display: none;
+    }
 }
 
 @media (min-width: 480px) and (max-width : 767px) {
@@ -205,9 +264,8 @@
     .pw-title p {
         font-size: 4vh;
     }
-    .section-name {
-        font-size: 2.07vh;
-        top: 55px;
+    .pw-title h6 {
+        font-size: 2vh;
     }
     .pw-left {
         padding-right: 0;
@@ -227,6 +285,9 @@
     .pw-desc {
         font-size: 2.1vh;
     }
+    .not-mobile {
+        display: none;
+    }
 }
 
 @media (max-width: 480px){
@@ -237,9 +298,8 @@
     .pw-title p {
         font-size: 4vh;
     }
-    .section-name {
-        font-size: 2.07vh;
-        top: 107vh;
+    .pw-title h6 {
+        font-size: 2vh;
     }
     .pw-left {
         padding-right: 0;

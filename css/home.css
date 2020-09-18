@@ -27,7 +27,7 @@
     padding-right: 45px;
     font-family: 'Futura';
     font-weight: lighter;
-    font-size: 2.55vh;
+    font-size: 2.2vh;
     z-index: 3;
 }
 
@@ -49,6 +49,7 @@
     left: 45px;
     margin: 0;
     writing-mode: vertical-rl;
+    opacity: 80%;
 }
 
 .home {
@@ -58,6 +59,7 @@
     right: 45px;
     margin: 0;
     writing-mode: vertical-rl;
+    opacity: 80%;
 }
 
 .hero-section {
@@ -176,6 +178,7 @@
     font-family: 'Futura';
     margin-top: 9.5vh;
     margin-bottom: 0;
+    opacity: 80%;
 }
 
 .hero-section-mid {
@@ -385,10 +388,12 @@
     .home {
         right: 15px;
         color: #808080;
+        opacity: 1;
     }
     .year {
         left: 15px;
         color: #808080;
+        opacity: 1;
     }
     .showcase {
         padding-bottom: 6vh;
